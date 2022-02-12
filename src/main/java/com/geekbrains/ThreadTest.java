@@ -1,5 +1,6 @@
 package com.geekbrains;
 
+
 public class ThreadTest {
     static final int size = 10000000;
     static final int h = size / 2;
@@ -53,4 +54,5 @@ public class ThreadTest {
         System.arraycopy(a2, 0, arr, h, h);
         System.out.println(System.currentTimeMillis() - a);
     }
+
 }
